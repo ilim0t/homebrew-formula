@@ -10,6 +10,7 @@ class G2o < Formula
 
   depends_on "cmake" => :build
   depends_on "eigen"
+  depends_on "suite-sparse"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
